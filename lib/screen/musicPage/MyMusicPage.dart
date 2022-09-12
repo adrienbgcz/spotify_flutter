@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_flutter/screen/musicPage/widgets/AppBarMusic.dart';
+import 'package:spotify_flutter/screen/musicPage/widgets/BottomBarMusic.dart';
 
 class MyMusicPage extends StatefulWidget {
   const MyMusicPage({Key? key}) : super(key: key);
@@ -27,6 +28,7 @@ class _MyMusicPageState extends State<MyMusicPage> {
                 Text('Titre + Artiste', style: TextStyle(color: Colors.white)),
                 Text('Slider', style: TextStyle(color: Colors.white)),
                 Text('List Button', style: TextStyle(color: Colors.white)),
+                BottomBarMusic()
               ],
             ),
           ),
